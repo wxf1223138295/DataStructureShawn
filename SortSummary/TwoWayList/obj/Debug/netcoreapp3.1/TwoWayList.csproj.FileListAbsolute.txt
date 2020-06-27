@@ -1,0 +1,13 @@
+F:\MyTest\Sort\SortSummary\TwoWayList\bin\Debug\netcoreapp3.1\TwoWayList.exe
+F:\MyTest\Sort\SortSummary\TwoWayList\bin\Debug\netcoreapp3.1\TwoWayList.deps.json
+F:\MyTest\Sort\SortSummary\TwoWayList\bin\Debug\netcoreapp3.1\TwoWayList.runtimeconfig.json
+F:\MyTest\Sort\SortSummary\TwoWayList\bin\Debug\netcoreapp3.1\TwoWayList.runtimeconfig.dev.json
+F:\MyTest\Sort\SortSummary\TwoWayList\bin\Debug\netcoreapp3.1\TwoWayList.dll
+F:\MyTest\Sort\SortSummary\TwoWayList\bin\Debug\netcoreapp3.1\TwoWayList.pdb
+F:\MyTest\Sort\SortSummary\TwoWayList\obj\Debug\netcoreapp3.1\TwoWayList.csprojAssemblyReference.cache
+F:\MyTest\Sort\SortSummary\TwoWayList\obj\Debug\netcoreapp3.1\TwoWayList.AssemblyInfoInputs.cache
+F:\MyTest\Sort\SortSummary\TwoWayList\obj\Debug\netcoreapp3.1\TwoWayList.AssemblyInfo.cs
+F:\MyTest\Sort\SortSummary\TwoWayList\obj\Debug\netcoreapp3.1\TwoWayList.csproj.CoreCompileInputs.cache
+F:\MyTest\Sort\SortSummary\TwoWayList\obj\Debug\netcoreapp3.1\TwoWayList.dll
+F:\MyTest\Sort\SortSummary\TwoWayList\obj\Debug\netcoreapp3.1\TwoWayList.pdb
+F:\MyTest\Sort\SortSummary\TwoWayList\obj\Debug\netcoreapp3.1\TwoWayList.genruntimeconfig.cache

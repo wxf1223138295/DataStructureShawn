@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M3dk041DoLG4OLywWMK4TbmMqxr58aLIh29oF4t7tUUgF3A28Yo/KSwW06WnRtfohDZLn55VR9eMwuVWdfuziw==",
+  "success": true,
+  "projectFilePath": "F:\\MyTest\\Sort\\SortSummary\\SelectionSort\\SelectionSort.csproj",
+  "expectedPackageFiles": [
+    "F:\\Data\\NugetCache\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

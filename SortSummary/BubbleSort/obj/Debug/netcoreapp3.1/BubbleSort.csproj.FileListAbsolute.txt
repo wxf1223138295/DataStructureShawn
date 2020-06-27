@@ -1,0 +1,13 @@
+F:\MyTest\Sort\SortSummary\BubbleSort\bin\Debug\netcoreapp3.1\BubbleSort.exe
+F:\MyTest\Sort\SortSummary\BubbleSort\bin\Debug\netcoreapp3.1\BubbleSort.deps.json
+F:\MyTest\Sort\SortSummary\BubbleSort\bin\Debug\netcoreapp3.1\BubbleSort.runtimeconfig.json
+F:\MyTest\Sort\SortSummary\BubbleSort\bin\Debug\netcoreapp3.1\BubbleSort.runtimeconfig.dev.json
+F:\MyTest\Sort\SortSummary\BubbleSort\bin\Debug\netcoreapp3.1\BubbleSort.dll
+F:\MyTest\Sort\SortSummary\BubbleSort\bin\Debug\netcoreapp3.1\BubbleSort.pdb
+F:\MyTest\Sort\SortSummary\BubbleSort\obj\Debug\netcoreapp3.1\BubbleSort.csprojAssemblyReference.cache
+F:\MyTest\Sort\SortSummary\BubbleSort\obj\Debug\netcoreapp3.1\BubbleSort.AssemblyInfoInputs.cache
+F:\MyTest\Sort\SortSummary\BubbleSort\obj\Debug\netcoreapp3.1\BubbleSort.AssemblyInfo.cs
+F:\MyTest\Sort\SortSummary\BubbleSort\obj\Debug\netcoreapp3.1\BubbleSort.csproj.CoreCompileInputs.cache
+F:\MyTest\Sort\SortSummary\BubbleSort\obj\Debug\netcoreapp3.1\BubbleSort.dll
+F:\MyTest\Sort\SortSummary\BubbleSort\obj\Debug\netcoreapp3.1\BubbleSort.pdb
+F:\MyTest\Sort\SortSummary\BubbleSort\obj\Debug\netcoreapp3.1\BubbleSort.genruntimeconfig.cache

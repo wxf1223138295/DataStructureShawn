@@ -1,0 +1,13 @@
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\bin\Debug\netcoreapp3.1\BinaryTreeOpe.exe
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\bin\Debug\netcoreapp3.1\BinaryTreeOpe.deps.json
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\bin\Debug\netcoreapp3.1\BinaryTreeOpe.runtimeconfig.json
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\bin\Debug\netcoreapp3.1\BinaryTreeOpe.runtimeconfig.dev.json
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\bin\Debug\netcoreapp3.1\BinaryTreeOpe.dll
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\bin\Debug\netcoreapp3.1\BinaryTreeOpe.pdb
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\obj\Debug\netcoreapp3.1\BinaryTreeOpe.csprojAssemblyReference.cache
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\obj\Debug\netcoreapp3.1\BinaryTreeOpe.AssemblyInfoInputs.cache
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\obj\Debug\netcoreapp3.1\BinaryTreeOpe.AssemblyInfo.cs
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\obj\Debug\netcoreapp3.1\BinaryTreeOpe.csproj.CoreCompileInputs.cache
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\obj\Debug\netcoreapp3.1\BinaryTreeOpe.dll
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\obj\Debug\netcoreapp3.1\BinaryTreeOpe.pdb
+F:\MyTest\Sort\SortSummary\BinaryTreeOpe\obj\Debug\netcoreapp3.1\BinaryTreeOpe.genruntimeconfig.cache

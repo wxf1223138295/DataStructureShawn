@@ -1,0 +1,13 @@
+F:\MyTest\Sort\SortSummary\OneWayList\bin\Debug\netcoreapp3.1\OneWayList.exe
+F:\MyTest\Sort\SortSummary\OneWayList\bin\Debug\netcoreapp3.1\OneWayList.deps.json
+F:\MyTest\Sort\SortSummary\OneWayList\bin\Debug\netcoreapp3.1\OneWayList.runtimeconfig.json
+F:\MyTest\Sort\SortSummary\OneWayList\bin\Debug\netcoreapp3.1\OneWayList.runtimeconfig.dev.json
+F:\MyTest\Sort\SortSummary\OneWayList\bin\Debug\netcoreapp3.1\OneWayList.dll
+F:\MyTest\Sort\SortSummary\OneWayList\bin\Debug\netcoreapp3.1\OneWayList.pdb
+F:\MyTest\Sort\SortSummary\OneWayList\obj\Debug\netcoreapp3.1\OneWayList.csprojAssemblyReference.cache
+F:\MyTest\Sort\SortSummary\OneWayList\obj\Debug\netcoreapp3.1\OneWayList.AssemblyInfoInputs.cache
+F:\MyTest\Sort\SortSummary\OneWayList\obj\Debug\netcoreapp3.1\OneWayList.AssemblyInfo.cs
+F:\MyTest\Sort\SortSummary\OneWayList\obj\Debug\netcoreapp3.1\OneWayList.csproj.CoreCompileInputs.cache
+F:\MyTest\Sort\SortSummary\OneWayList\obj\Debug\netcoreapp3.1\OneWayList.dll
+F:\MyTest\Sort\SortSummary\OneWayList\obj\Debug\netcoreapp3.1\OneWayList.pdb
+F:\MyTest\Sort\SortSummary\OneWayList\obj\Debug\netcoreapp3.1\OneWayList.genruntimeconfig.cache
