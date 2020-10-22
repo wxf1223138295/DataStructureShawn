@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MyTest\\Sort\\SortSummary\\QuickSort\\QuickSort.csproj": {}
+    "D:\\Data\\Project\\MyTest\\SortSummary\\DataStructureShawn\\SortSummary\\QuickSort\\QuickSort.csproj": {}
   },
   "projects": {
-    "F:\\MyTest\\Sort\\SortSummary\\QuickSort\\QuickSort.csproj": {
+    "D:\\Data\\Project\\MyTest\\SortSummary\\DataStructureShawn\\SortSummary\\QuickSort\\QuickSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyTest\\Sort\\SortSummary\\QuickSort\\QuickSort.csproj",
+        "projectUniqueName": "D:\\Data\\Project\\MyTest\\SortSummary\\DataStructureShawn\\SortSummary\\QuickSort\\QuickSort.csproj",
         "projectName": "QuickSort",
-        "projectPath": "F:\\MyTest\\Sort\\SortSummary\\QuickSort\\QuickSort.csproj",
-        "packagesPath": "F:\\Data\\NugetCache",
-        "outputPath": "F:\\MyTest\\Sort\\SortSummary\\QuickSort\\obj\\",
+        "projectPath": "D:\\Data\\Project\\MyTest\\SortSummary\\DataStructureShawn\\SortSummary\\QuickSort\\QuickSort.csproj",
+        "packagesPath": "C:\\Users\\synyi\\.nuget\\packages\\",
+        "outputPath": "D:\\Data\\Project\\MyTest\\SortSummary\\DataStructureShawn\\SortSummary\\QuickSort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ShawnWang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\synyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,18 +47,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

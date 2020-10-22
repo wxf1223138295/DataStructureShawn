@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/R3ZRIsLhrHDmSvoWW29BQTS+mTC+LCy9l3M0YyuOx825MesxR7v7p1WxZLaatgKzRMfSaa1M+FoCRunZYPYjg==",
+  "dgSpecHash": "wNCxmThPLnJRUcZSLEXLNGIhp/ai9VpgDtnyCsMPM/XsDPEmpY5eFsRm2wYZlOjoSdQ2ILKzZXKk+x/RgC90Sg==",
   "success": true,
-  "projectFilePath": "F:\\MyTest\\Sort\\SortSummary\\InsertionSort\\InsertionSort.csproj",
-  "expectedPackageFiles": [
-    "F:\\Data\\NugetCache\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Data\\Project\\MyTest\\SortSummary\\DataStructureShawn\\SortSummary\\InsertionSort\\InsertionSort.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
