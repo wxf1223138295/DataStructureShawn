@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "有序链表转换二叉搜
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "从尾到头打印链表", "从尾到头打印链表\从尾到头打印链表.csproj", "{FB96F318-44D5-4763-B370-05B60720C16D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "复杂链表的复制", "复杂链表的复制\复杂链表的复制.csproj", "{BA628F9C-790F-47A8-956C-BF9D09EA6C52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{FB96F318-44D5-4763-B370-05B60720C16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB96F318-44D5-4763-B370-05B60720C16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB96F318-44D5-4763-B370-05B60720C16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA628F9C-790F-47A8-956C-BF9D09EA6C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA628F9C-790F-47A8-956C-BF9D09EA6C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA628F9C-790F-47A8-956C-BF9D09EA6C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA628F9C-790F-47A8-956C-BF9D09EA6C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +138,7 @@ Global
 		{34D22A31-69B3-437D-8A30-B015056AE41E} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{DE52462D-0B01-4A78-8CB9-AD97626874DF} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{FB96F318-44D5-4763-B370-05B60720C16D} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{BA628F9C-790F-47A8-956C-BF9D09EA6C52} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}
