@@ -1,0 +1,80 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace 从尾到头打印链表
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Solution solution=new Solution();
+
+            ListNode node=new ListNode(1);
+            node.next=new ListNode(2);
+            node.next.next=new ListNode(3);
+            var r=solution.ReversePrint(node);
+        }
+    }
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+        public ListNode(int x) { val = x; }
+    }
+
+    public class Solution
+    {
+        public int[] ReversePrint(ListNode head)
+        {
+            if (head == null)
+            {
+                return new int[]{};
+            }
+
+            List<int> list=new List<int>();
+
+            while (true)
+            {
+                list.Add(head.val);
+                if (head.next == null)
+                {
+                    break;
+                }
+                head = head.next;
+               
+               
+            }
+
+            list.Reverse();
+
+            return list.ToArray();
+        }
+
+        public ListNode ReverseNode(ListNode head)
+        {
+            if (head == null)
+            {
+                return null;
+            }
+            //前指针
+            ListNode pre = null;
+            //后指针
+            var current = head;
+
+            while (current!=null)
+            {
+                //存储需要倒的node
+                var temp = current.next;
+                //把当前节点的next翻转
+                current.next = pre;
+                //pre 暂存 cur
+                pre = current;
+                //cur 访问下一节点
+                current = temp;
+            }
+
+            return pre;
+        }
+
+    }
+}
