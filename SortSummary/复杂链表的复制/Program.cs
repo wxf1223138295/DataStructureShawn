@@ -27,13 +27,16 @@ namespace 复杂链表的复制
     {
         public Node CopyRandomList(Node head)
         {
+            if (head == null)
+            {
+                return null;
+            }
             //新建dic 把初始的 node copy
             Dictionary<Node,Node> dictionary=new Dictionary<Node, Node>();
             var currentnode = head;
             while (currentnode!=null)
             {
                 var node=new Node(currentnode.val);
-                node.next = currentnode.next;
 
                 dictionary.Add(currentnode,node);
 
@@ -44,7 +47,11 @@ namespace 复杂链表的复制
 
             while (currentnode != null)
             {
-                dictionary.GetValueOrDefault(currentnode).next = dictionary.GetValueOrDefault(currentnode.next);
+                if (currentnode.next != null)
+                {
+                    dictionary.GetValueOrDefault(currentnode).next = dictionary.GetValueOrDefault(currentnode.next);
+                }
+                
 
                 if (currentnode.random != null)
                 {
