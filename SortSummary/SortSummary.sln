@@ -25,27 +25,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoWayList", "TwoWayList\Tw
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedListCode", "LinkedListCode", "{308D3447-8C3C-45F0-8AB9-427BA81AA946}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "重构字符串", "重构字符串\重构字符串.csproj", "{A0B19804-C472-43F2-830E-D7AF8EE74E02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "重构字符串", "重构字符串\重构字符串.csproj", "{A0B19804-C472-43F2-830E-D7AF8EE74E02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "删除中间节点", "删除中间节点\删除中间节点.csproj", "{67B05512-9A6E-4086-B4F3-5BD46C8F408C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "删除中间节点", "删除中间节点\删除中间节点.csproj", "{67B05512-9A6E-4086-B4F3-5BD46C8F408C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListDef", "LinkedListDef\LinkedListDef.csproj", "{7093D99A-B476-4A2C-B490-4136BE902A41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListDef", "LinkedListDef\LinkedListDef.csproj", "{7093D99A-B476-4A2C-B490-4136BE902A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二进制链表转整数", "二进制链表转整数\二进制链表转整数.csproj", "{45F6D9F0-7A73-4403-837E-6991A6675470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二进制链表转整数", "二进制链表转整数\二进制链表转整数.csproj", "{45F6D9F0-7A73-4403-837E-6991A6675470}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "合并两个链表", "合并两个链表\合并两个链表.csproj", "{D6D3E921-1EC2-4FAF-910B-2536E539305E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "合并两个链表", "合并两个链表\合并两个链表.csproj", "{D6D3E921-1EC2-4FAF-910B-2536E539305E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表中倒数第k个节点", "链表中倒数第k个节点\链表中倒数第k个节点.csproj", "{34D22A31-69B3-437D-8A30-B015056AE41E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "链表中倒数第k个节点", "链表中倒数第k个节点\链表中倒数第k个节点.csproj", "{34D22A31-69B3-437D-8A30-B015056AE41E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "有序链表转换二叉搜索树", "有序链表转换二叉搜索树\有序链表转换二叉搜索树.csproj", "{DE52462D-0B01-4A78-8CB9-AD97626874DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "有序链表转换二叉搜索树", "有序链表转换二叉搜索树\有序链表转换二叉搜索树.csproj", "{DE52462D-0B01-4A78-8CB9-AD97626874DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "从尾到头打印链表", "从尾到头打印链表\从尾到头打印链表.csproj", "{FB96F318-44D5-4763-B370-05B60720C16D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "从尾到头打印链表", "从尾到头打印链表\从尾到头打印链表.csproj", "{FB96F318-44D5-4763-B370-05B60720C16D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "复杂链表的复制", "复杂链表的复制\复杂链表的复制.csproj", "{BA628F9C-790F-47A8-956C-BF9D09EA6C52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "复杂链表的复制", "复杂链表的复制\复杂链表的复制.csproj", "{BA628F9C-790F-47A8-956C-BF9D09EA6C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表的中间结点", "链表的中间结点\链表的中间结点.csproj", "{B616C27E-8F1E-45F0-A931-FDA45EFA3C14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "链表的中间结点", "链表的中间结点\链表的中间结点.csproj", "{B616C27E-8F1E-45F0-A931-FDA45EFA3C14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "移除重复节点", "移除重复节点\移除重复节点.csproj", "{60FCD06D-F8C8-4DD0-8131-AC80367AAADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "移除重复节点", "移除重复节点\移除重复节点.csproj", "{60FCD06D-F8C8-4DD0-8131-AC80367AAADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表相交", "链表相交\链表相交.csproj", "{48342BAB-78B9-4803-AA2F-517F24B3D2B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{60FCD06D-F8C8-4DD0-8131-AC80367AAADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60FCD06D-F8C8-4DD0-8131-AC80367AAADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60FCD06D-F8C8-4DD0-8131-AC80367AAADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48342BAB-78B9-4803-AA2F-517F24B3D2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48342BAB-78B9-4803-AA2F-517F24B3D2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48342BAB-78B9-4803-AA2F-517F24B3D2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48342BAB-78B9-4803-AA2F-517F24B3D2B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +159,7 @@ Global
 		{BA628F9C-790F-47A8-956C-BF9D09EA6C52} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{B616C27E-8F1E-45F0-A931-FDA45EFA3C14} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{60FCD06D-F8C8-4DD0-8131-AC80367AAADC} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{48342BAB-78B9-4803-AA2F-517F24B3D2B6} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}
