@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace 从尾到头打印链表
 {
@@ -7,6 +8,9 @@ namespace 从尾到头打印链表
     {
         static void Main(string[] args)
         {
+
+            string[] drives = Directory.GetLogicalDrives();
+
             Solution solution=new Solution();
 
             ListNode node=new ListNode(1);
@@ -49,8 +53,8 @@ namespace 从尾到头打印链表
 
             return list.ToArray();
         }
-
-        public ListNode ReverseNode(ListNode head)
+        //翻转链表  迭代1
+        public ListNode ReverseNode1(ListNode head)
         {
             if (head == null)
             {
@@ -75,6 +79,18 @@ namespace 从尾到头打印链表
 
             return pre;
         }
+        public ListNode ReverseNode2(ListNode head)
+        {
+            if (head == null||head.next==null)
+            {
+                return head;
+            }
 
+            var node = ReverseNode2(head.next);
+            head.next.next = head;
+            head.next = null;
+
+            return node;
+        }
     }
 }
