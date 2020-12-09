@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "回文链表", "回文链�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "移除链表元素", "移除链表元素\移除链表元素.csproj", "{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两两交换链表中的节点", "两两交换链表中的节点\两两交换链表中的节点.csproj", "{8C023A0B-B23F-4186-8167-6736AE5C3FFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +187,10 @@ Global
 		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C023A0B-B23F-4186-8167-6736AE5C3FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C023A0B-B23F-4186-8167-6736AE5C3FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C023A0B-B23F-4186-8167-6736AE5C3FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C023A0B-B23F-4186-8167-6736AE5C3FFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +215,7 @@ Global
 		{A639F5BB-3CE6-4FDE-80D2-F02DAD367517} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{F2E619A0-4053-4546-984A-F919F1532FAC} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{8C023A0B-B23F-4186-8167-6736AE5C3FFE} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}
