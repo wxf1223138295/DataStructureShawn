@@ -9,7 +9,7 @@ namespace 从尾到头打印链表
         static void Main(string[] args)
         {
 
-            string[] drives = Directory.GetLogicalDrives();
+ 
 
             Solution solution=new Solution();
 
