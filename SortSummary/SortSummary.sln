@@ -49,6 +49,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "移除重复节点", "移�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表相交", "链表相交\链表相交.csproj", "{48342BAB-78B9-4803-AA2F-517F24B3D2B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "环路检测", "环路检测\环路检测.csproj", "{47860441-AC9D-4617-9DCD-EFB89601EAFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "合并两个有序链表", "合并两个有序链表\合并两个有序链表.csproj", "{2D091EAA-99A7-460E-ACB9-2AAAA20EDBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两个链表的第一个公共节点", "两个链表的第一个公共节点\两个链表的第一个公共节点.csproj", "{D1085217-CC36-4C24-8A3F-5F32043BAF6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +149,18 @@ Global
 		{48342BAB-78B9-4803-AA2F-517F24B3D2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48342BAB-78B9-4803-AA2F-517F24B3D2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48342BAB-78B9-4803-AA2F-517F24B3D2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47860441-AC9D-4617-9DCD-EFB89601EAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47860441-AC9D-4617-9DCD-EFB89601EAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47860441-AC9D-4617-9DCD-EFB89601EAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47860441-AC9D-4617-9DCD-EFB89601EAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D091EAA-99A7-460E-ACB9-2AAAA20EDBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D091EAA-99A7-460E-ACB9-2AAAA20EDBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D091EAA-99A7-460E-ACB9-2AAAA20EDBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D091EAA-99A7-460E-ACB9-2AAAA20EDBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1085217-CC36-4C24-8A3F-5F32043BAF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1085217-CC36-4C24-8A3F-5F32043BAF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1085217-CC36-4C24-8A3F-5F32043BAF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1085217-CC36-4C24-8A3F-5F32043BAF6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +178,9 @@ Global
 		{B616C27E-8F1E-45F0-A931-FDA45EFA3C14} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{60FCD06D-F8C8-4DD0-8131-AC80367AAADC} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{48342BAB-78B9-4803-AA2F-517F24B3D2B6} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{47860441-AC9D-4617-9DCD-EFB89601EAFC} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{2D091EAA-99A7-460E-ACB9-2AAAA20EDBC3} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{D1085217-CC36-4C24-8A3F-5F32043BAF6C} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}
