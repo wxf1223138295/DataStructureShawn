@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "环形链表", "环形链�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "回文链表", "回文链表\回文链表.csproj", "{F2E619A0-4053-4546-984A-F919F1532FAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "移除链表元素", "移除链表元素\移除链表元素.csproj", "{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{F2E619A0-4053-4546-984A-F919F1532FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E619A0-4053-4546-984A-F919F1532FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E619A0-4053-4546-984A-F919F1532FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +208,7 @@ Global
 		{60D2099C-EDD4-4207-9F75-34641A15E613} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{A639F5BB-3CE6-4FDE-80D2-F02DAD367517} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{F2E619A0-4053-4546-984A-F919F1532FAC} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}
