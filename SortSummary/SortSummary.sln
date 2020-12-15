@@ -47,23 +47,41 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "链表的中间结点", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "移除重复节点", "移除重复节点\移除重复节点.csproj", "{60FCD06D-F8C8-4DD0-8131-AC80367AAADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表相交", "链表相交\链表相交.csproj", "{48342BAB-78B9-4803-AA2F-517F24B3D2B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "链表相交", "链表相交\链表相交.csproj", "{48342BAB-78B9-4803-AA2F-517F24B3D2B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "环路检测", "环路检测\环路检测.csproj", "{47860441-AC9D-4617-9DCD-EFB89601EAFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "环路检测", "环路检测\环路检测.csproj", "{47860441-AC9D-4617-9DCD-EFB89601EAFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "合并两个有序链表", "合并两个有序链表\合并两个有序链表.csproj", "{2D091EAA-99A7-460E-ACB9-2AAAA20EDBC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "合并两个有序链表", "合并两个有序链表\合并两个有序链表.csproj", "{2D091EAA-99A7-460E-ACB9-2AAAA20EDBC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两个链表的第一个公共节点", "两个链表的第一个公共节点\两个链表的第一个公共节点.csproj", "{D1085217-CC36-4C24-8A3F-5F32043BAF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "两个链表的第一个公共节点", "两个链表的第一个公共节点\两个链表的第一个公共节点.csproj", "{D1085217-CC36-4C24-8A3F-5F32043BAF6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "删除排序链表中的重复元素", "删除排序链表中的重复元素\删除排序链表中的重复元素.csproj", "{60D2099C-EDD4-4207-9F75-34641A15E613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "删除排序链表中的重复元素", "删除排序链表中的重复元素\删除排序链表中的重复元素.csproj", "{60D2099C-EDD4-4207-9F75-34641A15E613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "环形链表", "环形链表\环形链表.csproj", "{A639F5BB-3CE6-4FDE-80D2-F02DAD367517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "环形链表", "环形链表\环形链表.csproj", "{A639F5BB-3CE6-4FDE-80D2-F02DAD367517}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "回文链表", "回文链表\回文链表.csproj", "{F2E619A0-4053-4546-984A-F919F1532FAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "回文链表", "回文链表\回文链表.csproj", "{F2E619A0-4053-4546-984A-F919F1532FAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "移除链表元素", "移除链表元素\移除链表元素.csproj", "{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "移除链表元素", "移除链表元素\移除链表元素.csproj", "{6506BD7E-CCEE-4243-9669-1CA518BF2DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两两交换链表中的节点", "两两交换链表中的节点\两两交换链表中的节点.csproj", "{8C023A0B-B23F-4186-8167-6736AE5C3FFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "两两交换链表中的节点", "两两交换链表中的节点\两两交换链表中的节点.csproj", "{8C023A0B-B23F-4186-8167-6736AE5C3FFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "排序链表", "排序链表\排序链表.csproj", "{C37F3738-A33D-4E99-AA62-BF75E62EB1FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "排序算法", "排序算法", "{2B17D743-F59C-45C9-A56C-D2277371AC92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "冒泡排序", "冒泡排序\冒泡排序.csproj", "{07691F1A-12F3-44B2-B1FE-57373F345E22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "选择排序", "选择排序\选择排序.csproj", "{412BD2F6-2794-42FF-A09A-6CEFD6318E53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "插入排序", "插入排序\插入排序.csproj", "{C5C0FDFC-AFE8-4EA5-A81D-CB76952E10EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "快速排序", "快速排序\快速排序.csproj", "{3FF089D5-D067-4FE5-8415-05653EF7C4DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "希尔排序", "希尔排序\希尔排序.csproj", "{7E6A125B-5A33-4263-B1FD-3B39F8AA28B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "归并排序", "归并排序\归并排序.csproj", "{CE8180B6-C3C8-4505-98F6-DC46B09059A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桶排序", "桶排序\桶排序.csproj", "{EF636FD8-A3EF-4809-8424-AEF49715F4BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +209,38 @@ Global
 		{8C023A0B-B23F-4186-8167-6736AE5C3FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C023A0B-B23F-4186-8167-6736AE5C3FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C023A0B-B23F-4186-8167-6736AE5C3FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37F3738-A33D-4E99-AA62-BF75E62EB1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37F3738-A33D-4E99-AA62-BF75E62EB1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37F3738-A33D-4E99-AA62-BF75E62EB1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37F3738-A33D-4E99-AA62-BF75E62EB1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07691F1A-12F3-44B2-B1FE-57373F345E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07691F1A-12F3-44B2-B1FE-57373F345E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07691F1A-12F3-44B2-B1FE-57373F345E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07691F1A-12F3-44B2-B1FE-57373F345E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412BD2F6-2794-42FF-A09A-6CEFD6318E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412BD2F6-2794-42FF-A09A-6CEFD6318E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412BD2F6-2794-42FF-A09A-6CEFD6318E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412BD2F6-2794-42FF-A09A-6CEFD6318E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C0FDFC-AFE8-4EA5-A81D-CB76952E10EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C0FDFC-AFE8-4EA5-A81D-CB76952E10EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C0FDFC-AFE8-4EA5-A81D-CB76952E10EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C0FDFC-AFE8-4EA5-A81D-CB76952E10EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF089D5-D067-4FE5-8415-05653EF7C4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF089D5-D067-4FE5-8415-05653EF7C4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF089D5-D067-4FE5-8415-05653EF7C4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF089D5-D067-4FE5-8415-05653EF7C4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6A125B-5A33-4263-B1FD-3B39F8AA28B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6A125B-5A33-4263-B1FD-3B39F8AA28B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6A125B-5A33-4263-B1FD-3B39F8AA28B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6A125B-5A33-4263-B1FD-3B39F8AA28B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8180B6-C3C8-4505-98F6-DC46B09059A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8180B6-C3C8-4505-98F6-DC46B09059A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8180B6-C3C8-4505-98F6-DC46B09059A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8180B6-C3C8-4505-98F6-DC46B09059A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF636FD8-A3EF-4809-8424-AEF49715F4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF636FD8-A3EF-4809-8424-AEF49715F4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF636FD8-A3EF-4809-8424-AEF49715F4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF636FD8-A3EF-4809-8424-AEF49715F4BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -216,6 +266,14 @@ Global
 		{F2E619A0-4053-4546-984A-F919F1532FAC} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{6506BD7E-CCEE-4243-9669-1CA518BF2DA8} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{8C023A0B-B23F-4186-8167-6736AE5C3FFE} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{C37F3738-A33D-4E99-AA62-BF75E62EB1FF} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{07691F1A-12F3-44B2-B1FE-57373F345E22} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{412BD2F6-2794-42FF-A09A-6CEFD6318E53} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{C5C0FDFC-AFE8-4EA5-A81D-CB76952E10EA} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{3FF089D5-D067-4FE5-8415-05653EF7C4DA} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{7E6A125B-5A33-4263-B1FD-3B39F8AA28B6} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{CE8180B6-C3C8-4505-98F6-DC46B09059A3} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{EF636FD8-A3EF-4809-8424-AEF49715F4BF} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}

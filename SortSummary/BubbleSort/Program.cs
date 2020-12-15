@@ -36,6 +36,8 @@ namespace BubbleSort
             {
                 Console.WriteLine(myArray[i].ToString());
             }
+
+            Console.ReadKey();
         }
     }
 }
