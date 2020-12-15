@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "归并排序", "归并排�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桶排序", "桶排序\桶排序.csproj", "{EF636FD8-A3EF-4809-8424-AEF49715F4BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "堆排序", "堆排序\堆排序.csproj", "{612C9723-554B-4775-89FE-DB6025BD6739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -241,6 +243,10 @@ Global
 		{EF636FD8-A3EF-4809-8424-AEF49715F4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF636FD8-A3EF-4809-8424-AEF49715F4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF636FD8-A3EF-4809-8424-AEF49715F4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612C9723-554B-4775-89FE-DB6025BD6739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612C9723-554B-4775-89FE-DB6025BD6739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612C9723-554B-4775-89FE-DB6025BD6739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612C9723-554B-4775-89FE-DB6025BD6739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -274,6 +280,7 @@ Global
 		{7E6A125B-5A33-4263-B1FD-3B39F8AA28B6} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
 		{CE8180B6-C3C8-4505-98F6-DC46B09059A3} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
 		{EF636FD8-A3EF-4809-8424-AEF49715F4BF} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{612C9723-554B-4775-89FE-DB6025BD6739} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}
