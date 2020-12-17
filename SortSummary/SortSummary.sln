@@ -81,9 +81,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "希尔排序", "希尔排�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "归并排序", "归并排序\归并排序.csproj", "{CE8180B6-C3C8-4505-98F6-DC46B09059A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桶排序", "桶排序\桶排序.csproj", "{EF636FD8-A3EF-4809-8424-AEF49715F4BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "桶排序", "桶排序\桶排序.csproj", "{EF636FD8-A3EF-4809-8424-AEF49715F4BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "堆排序", "堆排序\堆排序.csproj", "{612C9723-554B-4775-89FE-DB6025BD6739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "堆排序", "堆排序\堆排序.csproj", "{612C9723-554B-4775-89FE-DB6025BD6739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "二叉树", "二叉树", "{5D40870E-DA7F-466B-8F04-4FCCF2406662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "从前序与中序遍历序列构造二叉树", "从前序与中序遍历序列构造二叉树\从前序与中序遍历序列构造二叉树.csproj", "{7F44D974-75BE-4E51-A75B-ECAA9EEFACE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +251,10 @@ Global
 		{612C9723-554B-4775-89FE-DB6025BD6739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{612C9723-554B-4775-89FE-DB6025BD6739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{612C9723-554B-4775-89FE-DB6025BD6739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F44D974-75BE-4E51-A75B-ECAA9EEFACE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F44D974-75BE-4E51-A75B-ECAA9EEFACE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F44D974-75BE-4E51-A75B-ECAA9EEFACE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F44D974-75BE-4E51-A75B-ECAA9EEFACE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -281,6 +289,7 @@ Global
 		{CE8180B6-C3C8-4505-98F6-DC46B09059A3} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
 		{EF636FD8-A3EF-4809-8424-AEF49715F4BF} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
 		{612C9723-554B-4775-89FE-DB6025BD6739} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{7F44D974-75BE-4E51-A75B-ECAA9EEFACE7} = {5D40870E-DA7F-466B-8F04-4FCCF2406662}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}

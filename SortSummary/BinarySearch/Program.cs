@@ -9,15 +9,21 @@ namespace BinarySearch
     {
         static void Main(string[] args)
         {
-            TreeNode<string> node = new TreeNode<string>("A",
-                new TreeNode<string>("B",
-                    new TreeNode<string>("D"),
-                    new TreeNode<string>("E",
-                        new TreeNode<string>("G"),
-                        new TreeNode<string>("H"))),
-                new TreeNode<string>("C",null,new TreeNode<string>("F")));
 
 
+            TreeNode<string> node=new TreeNode<string>("A",new TreeNode<string>("B"   ,new TreeNode<string>("D",
+                                                                                                                              new TreeNode<string>("H"),                                                                                          new TreeNode<string>("I")),
+                                                                                                     new TreeNode<string>("E",
+                                                                                                                             new TreeNode<string>("J"),
+                                                                                                                            new TreeNode<string>("K"))),
+                                                                
+                
+                                                               new TreeNode<string>("C",  new TreeNode<string>("F",
+                                                                                                                       new TreeNode<string>("L"), 
+                                                                                                                       new TreeNode<string>("M")),
+                                                                                                    new TreeNode<string>("G",
+                                                                                                                         new TreeNode<string>("N"),
+                                                                                                                        new TreeNode<string>("O"))));
 
 
             //前序遍历

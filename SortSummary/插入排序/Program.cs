@@ -9,48 +9,65 @@ namespace 插入排序
             //声明数据进行相应的测试
             int[] myArray = new int[] { 4, 3, 7, 2, 1, 9, 6, 0, 5, 8 };
 
-            //升序
+            
             for (int i = 1; i < myArray.Length; i++)
             {
                 var preindex = i - 1;
-                var current = myArray[i];
-                while (preindex >= 0 && myArray[preindex] > current)
+                var currentvalue = myArray[i];
+
+                while (preindex>=0&&myArray[preindex]>currentvalue)
                 {
-                    //45, 45, 18, 53, 72, 30, 48, 93, 15, 36 
                     myArray[preindex + 1] = myArray[preindex];
-
-                    preindex = preindex - 1;
-
+                    preindex--;
                 }
-                //36, 45, 18, 53, 72, 30, 48, 93, 15, 36 
-                myArray[preindex + 1] = current;
-            }
+                myArray[preindex+1] = currentvalue;
 
-            //降序
-            for (int i = 1; i < myArray.Length; i++)
-            {
-                var preindex = i - 1;
-                var current = myArray[i];
-                while (preindex >= 0 && myArray[preindex] < current)
-                {
-                    //45, 45, 18, 53, 72, 30, 48, 93, 15, 36 
-                    myArray[preindex + 1] = myArray[preindex];
-
-                    preindex = preindex - 1;
-
-                }
-                //36, 45, 18, 53, 72, 30, 48, 93, 15, 36 
-                myArray[preindex + 1] = current;
             }
 
 
 
-            //输出排完之后的数组
-            for (int i = 0; i < myArray.Length; i++)
+
+                //输出排完之后的数组
+                for (int i = 0; i < myArray.Length; i++)
             {
                 Console.WriteLine(myArray[i].ToString());
             }
             Console.ReadKey();
+
+
+            ////升序
+            //for (int i = 1; i < myArray.Length; i++)
+            //{
+            //    var preindex = i - 1;
+            //    var current = myArray[i];
+            //    while (preindex >= 0 && myArray[preindex] > current)
+            //    {
+            //        //45, 45, 18, 53, 72, 30, 48, 93, 15, 36 
+            //        myArray[preindex + 1] = myArray[preindex];
+
+            //        preindex = preindex - 1;
+
+            //    }
+            //    //36, 45, 18, 53, 72, 30, 48, 93, 15, 36 
+            //    myArray[preindex + 1] = current;
+            //}
+
+            ////降序
+            //for (int i = 1; i < myArray.Length; i++)
+            //{
+            //    var preindex = i - 1;
+            //    var current = myArray[i];
+            //    while (preindex >= 0 && myArray[preindex] < current)
+            //    {
+            //        //45, 45, 18, 53, 72, 30, 48, 93, 15, 36 
+            //        myArray[preindex + 1] = myArray[preindex];
+
+            //        preindex = preindex - 1;
+
+            //    }
+            //    //36, 45, 18, 53, 72, 30, 48, 93, 15, 36 
+            //    myArray[preindex + 1] = current;
+            //}
         }
     }
 }
