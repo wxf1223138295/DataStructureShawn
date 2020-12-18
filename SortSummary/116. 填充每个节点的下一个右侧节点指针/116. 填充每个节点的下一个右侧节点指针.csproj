@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_116._填充每个节点的下一个右侧节点指针</RootNamespace>
+  </PropertyGroup>
+
+</Project>
