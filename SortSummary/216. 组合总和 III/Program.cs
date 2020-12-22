@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _216._组合总和_III
 {
@@ -19,27 +20,23 @@ namespace _216._组合总和_III
         /// </summary>
         private IList<IList<int>> ResultSet = new List<IList<int>>();
 
-        private List<int> trace = new List<int>();
+        
         public IList<IList<int>> CombinationSum3(int k, int n)
         {
             //记录每次遍历的数组
-           
-            doCombination(n,0,k,1);
+           List<int> trace = new List<int>();
+            doCombination(n,0,k,1,trace);
             return ResultSet;
         }
 
-        void doCombination(int sum,int erverysum,int len,int startindex)
+        void doCombination(int sum,int erverysum,int len,int startindex,List<int> trace)
         {
-            if (erverysum>sum)
-            {
-                return;
-            }
 
             if (trace.Count==len)
             {
                 if (sum == erverysum)
                 {
-                    ResultSet.Add(trace);
+                    ResultSet.Add(new List<int>(trace));
                 }
                 return;
             }
@@ -48,9 +45,9 @@ namespace _216._组合总和_III
             {
                 erverysum += i;
                 trace.Add(i);
-                doCombination(sum,erverysum,len,i+1);
+                doCombination(sum,erverysum,len,i+1,trace);
                 erverysum -= i;
-                trace.Remove(i);
+                trace.Remove(trace.Last());
             }
 
         }
