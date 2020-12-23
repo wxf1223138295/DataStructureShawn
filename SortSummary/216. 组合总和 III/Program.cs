@@ -39,7 +39,7 @@ namespace _216._组合总和_III
             {
                 if (sum == erverysum)
                 {
-                    ResultSet.Add(trace);
+                    ResultSet.Add(new List<int>(trace));
                 }
                 return;
             }
