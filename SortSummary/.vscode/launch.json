@@ -4,6 +4,18 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
+        {
+            "name": ".NET Core Launch (console2)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/707设计链表/bin/Debug/netcoreapp3.1/707设计链表.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/707设计链表",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
         {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",

@@ -8,7 +8,9 @@ namespace _707设计链表
     {
         static void Main(string[] args)
         {
-            ListNode node=new ListNode(1);
+           MyLinkedList list=new MyLinkedList();
+           list.AddAtHead(1);
+           list.AddAtTail(3);
            
         }
     }
@@ -19,48 +21,104 @@ namespace _707设计链表
         public ListNode(int x) { val = x; }
     }
 
-
     public class MyLinkedList
     {
-
         /** Initialize your data structure here. */
+        public ListNode head;
         public MyLinkedList()
         {
-
+            
         }
+        public int Count(){
+             int len = 0;
+            var point = head;
+            while (point != null)
+            {
+                len = len + 1;
 
+                point = point.next;
+            }
+            return len;
+        }
         /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
         public int Get(int index)
         {
+            if (index < 0 || index > Count() - 1)
+            {
+                return -1;
+            }
+            var point=head;
+            for (var i = 0; i < index; i++)
+            {
+                point=point.next;
+            }
 
+            return point.val;
         }
 
         /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
         public void AddAtHead(int val)
         {
-
+            AddAtIndex(0,val);
         }
 
         /** Append a node of value val to the last element of the linked list. */
         public void AddAtTail(int val)
         {
+            var len=Count();
 
+            AddAtIndex(len,val);
         }
 
         /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
         public void AddAtIndex(int index, int val)
         {
+            if (index > Count() - 1)
+            {
+                return;
+            }
 
+            if (index < 0)
+                index = 0;
+
+            ListNode node=new ListNode(val);
+          
+            var point=head;
+    
+            for (var i = 0; i < index; i++)
+            {
+                point=point.next;
+            }
+            node.next=point.next;
+            point.next=node;
         }
 
         /** Delete the index-th node in the linked list, if the index is valid. */
         public void DeleteAtIndex(int index)
         {
+            if (index > Count() - 1)
+            {
+                return;
+            }
 
+            if(index<0){
+                return;
+            }
+            var point=head;
+            var mock=new ListNode(0);
+            mock.next=head;
+
+            for (var i = 0; i < index; i++)
+            {
+                point=point.next;
+                mock=mock.next;
+            }
+
+            mock.next=point.next;
+
+            head=mock.next;
         }
     }
-
-
 
 
 
