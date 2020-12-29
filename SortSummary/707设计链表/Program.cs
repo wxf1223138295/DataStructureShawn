@@ -9,9 +9,13 @@ namespace _707设计链表
         static void Main(string[] args)
         {
            MyLinkedList list=new MyLinkedList();
-           list.AddAtHead(1);
+           list.AddAtHead(2);
+           list.AddAtIndex(1,2);
            list.AddAtTail(3);
-           
+           list.AddAtIndex(1,2);
+           var rr=list.Get(1);
+           list.DeleteAtIndex(1);
+           var tt=list.Get(1);
         }
     }
     public class ListNode
@@ -24,14 +28,14 @@ namespace _707设计链表
     public class MyLinkedList
     {
         /** Initialize your data structure here. */
-        public ListNode head;
+        public ListNode _dummyHead;
         public MyLinkedList()
         {
-            
+            _dummyHead=new ListNode(0);
         }
         public int Count(){
              int len = 0;
-            var point = head;
+            var point = _dummyHead.next;
             while (point != null)
             {
                 len = len + 1;
@@ -47,7 +51,7 @@ namespace _707设计链表
             {
                 return -1;
             }
-            var point=head;
+            var point= _dummyHead.next;
             for (var i = 0; i < index; i++)
             {
                 point=point.next;
@@ -73,7 +77,8 @@ namespace _707设计链表
         /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
         public void AddAtIndex(int index, int val)
         {
-            if (index > Count() - 1)
+            //index从 0 开始   index=2  对应索引 =1
+            if (index > Count())
             {
                 return;
             }
@@ -83,7 +88,7 @@ namespace _707设计链表
 
             ListNode node=new ListNode(val);
           
-            var point=head;
+            var point=_dummyHead;
     
             for (var i = 0; i < index; i++)
             {
@@ -96,7 +101,7 @@ namespace _707设计链表
         /** Delete the index-th node in the linked list, if the index is valid. */
         public void DeleteAtIndex(int index)
         {
-            if (index > Count() - 1)
+            if (index > Count()-1)
             {
                 return;
             }
@@ -104,10 +109,9 @@ namespace _707设计链表
             if(index<0){
                 return;
             }
-            var point=head;
-            var mock=new ListNode(0);
-            mock.next=head;
-
+            var point= _dummyHead.next;
+            var mock = _dummyHead;
+            
             for (var i = 0; i < index; i++)
             {
                 point=point.next;
@@ -116,7 +120,6 @@ namespace _707设计链表
 
             mock.next=point.next;
 
-            head=mock.next;
         }
     }
 
