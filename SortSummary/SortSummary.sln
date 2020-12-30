@@ -127,6 +127,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "206. 反转链表", "206. �
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "142. 环形链表 II", "142. 环形链表 II\142. 环形链表 II.csproj", "{F87AB64E-AE8F-4C76-90C4-BDA44EFD1350}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "226.翻转二叉树", "226.翻转二叉树\226.翻转二叉树.csproj", "{9DB04F0C-C9D0-41B6-A7DD-C9A165A47F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "515. 在每个树行中找最大值", "515. 在每个树行中找最大值\515. 在每个树行中找最大值.csproj", "{69041194-40FB-40F7-AEB4-A980833420D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -361,6 +365,14 @@ Global
 		{F87AB64E-AE8F-4C76-90C4-BDA44EFD1350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F87AB64E-AE8F-4C76-90C4-BDA44EFD1350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F87AB64E-AE8F-4C76-90C4-BDA44EFD1350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB04F0C-C9D0-41B6-A7DD-C9A165A47F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB04F0C-C9D0-41B6-A7DD-C9A165A47F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB04F0C-C9D0-41B6-A7DD-C9A165A47F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB04F0C-C9D0-41B6-A7DD-C9A165A47F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69041194-40FB-40F7-AEB4-A980833420D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69041194-40FB-40F7-AEB4-A980833420D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69041194-40FB-40F7-AEB4-A980833420D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69041194-40FB-40F7-AEB4-A980833420D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -414,6 +426,8 @@ Global
 		{25FFCEC6-159C-4078-A751-DFB3BE833C1B} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{4EC92968-A5F2-4607-AD49-F5B38D880036} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{F87AB64E-AE8F-4C76-90C4-BDA44EFD1350} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{9DB04F0C-C9D0-41B6-A7DD-C9A165A47F58} = {5D40870E-DA7F-466B-8F04-4FCCF2406662}
+		{69041194-40FB-40F7-AEB4-A980833420D8} = {8233E011-14FB-44E0-9E7E-AABC001B16D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}

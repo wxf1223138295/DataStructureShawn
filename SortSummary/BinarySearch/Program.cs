@@ -45,6 +45,7 @@ namespace BinarySearch
         /// <param name="node"></param>
         private static void PreSearch(TreeNode<string> node)
         {
+            IList<IList<TreeNode<int>>> sd=new List<IList<TreeNode<int>>>();
             if (node == null)
             {
                 return;
