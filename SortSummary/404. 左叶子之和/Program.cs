@@ -41,7 +41,7 @@ namespace _404._左叶子之和
         {
             if (root == null) return 0;
 
-            if (root.left != null)
+            if (root.left != null&&(root.left.left==null&&root.left.right==null))
             {
                 list.Add(root.left.val);
             }
