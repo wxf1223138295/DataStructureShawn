@@ -27,9 +27,42 @@ namespace _110._平衡二叉树
 
     public class Solution
     {
-        //public bool IsBalanced(TreeNode root)
-        //{
+        /// <summary>
+        /// 后序遍历
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public bool IsBalanced(TreeNode root)
+        {
+            return GetHight(root)==-1?false:true;
+        }
+        /// <summary>
+        /// 等于-1 就是不平衡
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        private int GetHight(TreeNode root)
+        {
+            //终止条件
+            if (root == null)
+            {
+                return 0;
+            }
 
-        //}
+            int left = GetHight(root.left);
+            if (left == -1)
+            {
+                return -1;
+            }
+            int right = GetHight(root.right);
+            if (right == -1)
+            {
+                return -1;
+            }
+
+            var result=Math.Abs(left - right) > 1 ? -1 : 1+Math.Max(left,right);
+
+            return result;
+        }
     }
 }

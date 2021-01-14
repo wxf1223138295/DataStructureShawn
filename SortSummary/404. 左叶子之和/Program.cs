@@ -37,9 +37,9 @@ namespace _404._左叶子之和
             return sum;
         }
 
-        public int GetValue(TreeNode root,List<int> list)
+        public void GetValue(TreeNode root,List<int> list)
         {
-            if (root == null) return 0;
+            if (root == null) return;
 
             if (root.left != null&&(root.left.left==null&&root.left.right==null))
             {
@@ -49,7 +49,6 @@ namespace _404._左叶子之和
             GetValue(root.left, list);
             GetValue(root.right, list);
 
-            return 0;
         }
     }
 }
