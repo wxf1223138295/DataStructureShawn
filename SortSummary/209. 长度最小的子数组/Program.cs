@@ -18,25 +18,26 @@ namespace _209._长度最小的子数组
     {
         public int MinSubArrayLen(int s, int[] nums)
         {
-            int result = Int32.MaxValue;
-            int sum = 0; // 滑动窗口数值之和
-            int startindex = 0; // 滑动窗口起始位置
-            int subLength = 0; // 滑动窗口的长度
+            //右指针
+            int left = 0;
+            int sum = 0;
+            int minlenght = Int32.MaxValue;
+            //左指针
             for (int i = 0; i < nums.Length; i++)
             {
-                sum += nums[i];
+                sum = sum + nums[i];
+
                 while (sum>=s)
                 {
-                    subLength = i - startindex + 1;
-                    //保持最小
-                    result = result < subLength ? result : subLength;
-                    //滑动
-                    sum -= nums[startindex];
-                    startindex = startindex + 1;
+                    var sublen = left - i + 1;
+
+                    minlenght = minlenght > sublen ? sublen : minlenght;
+
+                    sum = sum - nums[left];
+                    left++;
                 }
             }
-
-            return result==Int32.MaxValue?0:result;
+            return minlenght == Int32.MaxValue ? 0 : minlenght;
         }
     }
 }
