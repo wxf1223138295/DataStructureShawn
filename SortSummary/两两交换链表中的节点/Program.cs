@@ -6,6 +6,18 @@ namespace 两两交换链表中的节点
     {
         static void Main(string[] args)
         {
+            ListNode node = new ListNode(1);
+
+
+            node.next = new ListNode(2);
+
+            node.next.next = new ListNode(3);
+
+            node.next.next.next = new ListNode(4);
+            node.next.next.next.next = new ListNode(5);
+
+            Solution s=new Solution();
+            var t=s.SwapPairs(node);
             Console.WriteLine("Hello World!");
         }
     }
@@ -40,8 +52,12 @@ namespace 两两交换链表中的节点
             }
 
             ListNode newhead = head.next;
+
+            Console.WriteLine($"前：{head.val} new {newhead.val}");
             head.next = SwapPairs(newhead.next);
+            Console.WriteLine($"后1：{head.val} new {newhead.val}");
             newhead.next = head;
+            Console.WriteLine($"后2：{head.val} new {newhead.val}");
             return newhead;
         }
     }

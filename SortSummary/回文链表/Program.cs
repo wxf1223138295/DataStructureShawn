@@ -100,8 +100,7 @@ namespace 回文链表
                     break;
                 }
 
-                prev = prev.next;
-                point = point.next;
+            
             }
 
             return isPalindrome;
