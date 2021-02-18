@@ -247,9 +247,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "645最大二叉树", "645�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "707.设计链表复习", "707.设计链表复习\707.设计链表复习.csproj", "{AB3288A9-4842-435E-A07F-6FB7DB8CE9BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表求和", "链表求和\链表求和.csproj", "{F8B01AC4-8DDD-4C41-BCA9-77E0798B9909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "链表求和", "链表求和\链表求和.csproj", "{F8B01AC4-8DDD-4C41-BCA9-77E0798B9909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. 删除链表的倒数第 N 个结点", "19. 删除链表的倒数第 N 个结点\19. 删除链表的倒数第 N 个结点.csproj", "{6A4F82BC-1623-4A99-84B2-35DCA289DF86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19. 删除链表的倒数第 N 个结点", "19. 删除链表的倒数第 N 个结点\19. 删除链表的倒数第 N 个结点.csproj", "{6A4F82BC-1623-4A99-84B2-35DCA289DF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "61. 旋转链表", "61. 旋转链表\61. 旋转链表.csproj", "{525BDB12-0DB1-498E-AC67-FC2E90287534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82. 删除排序链表中的重复元素 II", "82. 删除排序链表中的重复元素 II\82. 删除排序链表中的重复元素 II.csproj", "{D68B992F-3819-424A-9E6C-8E68A5BBA2C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "210. 课程表 II", "210. 课程表 II\210. 课程表 II.csproj", "{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -709,6 +715,18 @@ Global
 		{6A4F82BC-1623-4A99-84B2-35DCA289DF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A4F82BC-1623-4A99-84B2-35DCA289DF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A4F82BC-1623-4A99-84B2-35DCA289DF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525BDB12-0DB1-498E-AC67-FC2E90287534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525BDB12-0DB1-498E-AC67-FC2E90287534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525BDB12-0DB1-498E-AC67-FC2E90287534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525BDB12-0DB1-498E-AC67-FC2E90287534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68B992F-3819-424A-9E6C-8E68A5BBA2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68B992F-3819-424A-9E6C-8E68A5BBA2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68B992F-3819-424A-9E6C-8E68A5BBA2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68B992F-3819-424A-9E6C-8E68A5BBA2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -818,6 +836,9 @@ Global
 		{AB3288A9-4842-435E-A07F-6FB7DB8CE9BE} = {74D97FAE-8594-48D8-9ACC-B780F8CABBEA}
 		{F8B01AC4-8DDD-4C41-BCA9-77E0798B9909} = {74D97FAE-8594-48D8-9ACC-B780F8CABBEA}
 		{6A4F82BC-1623-4A99-84B2-35DCA289DF86} = {74D97FAE-8594-48D8-9ACC-B780F8CABBEA}
+		{525BDB12-0DB1-498E-AC67-FC2E90287534} = {74D97FAE-8594-48D8-9ACC-B780F8CABBEA}
+		{D68B992F-3819-424A-9E6C-8E68A5BBA2C0} = {74D97FAE-8594-48D8-9ACC-B780F8CABBEA}
+		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D} = {14198B33-8A7F-435D-B9B7-DC4C543AD87F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}

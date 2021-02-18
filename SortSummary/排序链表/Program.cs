@@ -54,9 +54,35 @@ namespace 排序链表
 
            var list1= SortList(head, midnode);
            var list2 = SortList(midnode, tail);
-           var reusult= MergeTwoListsRecursion(list1, list2);
+           var reusult= MergeNode(list1, list2);
 
             return reusult;
+        }
+
+        public ListNode MergeNode(ListNode l1, ListNode l2)
+        {
+            ListNode h = new ListNode(0);
+            ListNode fakeNode= h;
+
+            while (l1!=null&&l2!=null)
+            {
+                if (l1.val < l2.val)
+                {
+                    fakeNode.next = l1;
+                    l1 = l1.next;
+                }
+                else
+                {
+                    fakeNode.next = l2;
+                    l2 = l2.next;
+                }
+
+                fakeNode = fakeNode.next;
+            }
+
+            fakeNode.next = l1 != null ? l1 : l2;
+
+            return h.next;
         }
         /// <summary>
         /// 合并两个有序链表

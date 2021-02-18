@@ -47,7 +47,7 @@ namespace QuickSort
             while (i<j)
             {
                 //从右往左  找到比基准小的第一个
-                while (list[j] >= list[i] && i < j) j--;
+                while (list[j] >= Pivot && i < j) j--;
                 //2  8  1  2  10 9
                 list[i] = list[j];
 
