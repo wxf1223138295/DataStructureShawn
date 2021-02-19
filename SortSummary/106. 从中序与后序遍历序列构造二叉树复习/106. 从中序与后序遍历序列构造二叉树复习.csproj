@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_106._从中序与后序遍历序列构造二叉树复习</RootNamespace>
+  </PropertyGroup>
+
+</Project>

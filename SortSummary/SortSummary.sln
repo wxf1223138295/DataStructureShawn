@@ -251,11 +251,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "链表求和", "链表求�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19. 删除链表的倒数第 N 个结点", "19. 删除链表的倒数第 N 个结点\19. 删除链表的倒数第 N 个结点.csproj", "{6A4F82BC-1623-4A99-84B2-35DCA289DF86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "61. 旋转链表", "61. 旋转链表\61. 旋转链表.csproj", "{525BDB12-0DB1-498E-AC67-FC2E90287534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61. 旋转链表", "61. 旋转链表\61. 旋转链表.csproj", "{525BDB12-0DB1-498E-AC67-FC2E90287534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82. 删除排序链表中的重复元素 II", "82. 删除排序链表中的重复元素 II\82. 删除排序链表中的重复元素 II.csproj", "{D68B992F-3819-424A-9E6C-8E68A5BBA2C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "82. 删除排序链表中的重复元素 II", "82. 删除排序链表中的重复元素 II\82. 删除排序链表中的重复元素 II.csproj", "{D68B992F-3819-424A-9E6C-8E68A5BBA2C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "210. 课程表 II", "210. 课程表 II\210. 课程表 II.csproj", "{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "210. 课程表 II", "210. 课程表 II\210. 课程表 II.csproj", "{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "114. 二叉树展开为链表", "114. 二叉树展开为链表\114. 二叉树展开为链表.csproj", "{7952DD10-11E1-4D38-B1B1-A1E019D5B666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "116. 填充每个节点的下一个右侧节点指针复习", "116. 填充每个节点的下一个右侧节点指针复习\116. 填充每个节点的下一个右侧节点指针复习.csproj", "{9F8C13BF-D53F-42CD-A4EA-481F1138DA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "105. 从前序与中序遍历序列构造二叉树复习", "105. 从前序与中序遍历序列构造二叉树复习\105. 从前序与中序遍历序列构造二叉树复习.csproj", "{A29021E5-C04E-467A-B818-F9C7FFB44E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "106. 从中序与后序遍历序列构造二叉树复习", "106. 从中序与后序遍历序列构造二叉树复习\106. 从中序与后序遍历序列构造二叉树复习.csproj", "{CE9119FF-D3D0-4FEB-8E0C-31A3999AF0A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -727,6 +735,22 @@ Global
 		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7952DD10-11E1-4D38-B1B1-A1E019D5B666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7952DD10-11E1-4D38-B1B1-A1E019D5B666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7952DD10-11E1-4D38-B1B1-A1E019D5B666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7952DD10-11E1-4D38-B1B1-A1E019D5B666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8C13BF-D53F-42CD-A4EA-481F1138DA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8C13BF-D53F-42CD-A4EA-481F1138DA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8C13BF-D53F-42CD-A4EA-481F1138DA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8C13BF-D53F-42CD-A4EA-481F1138DA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29021E5-C04E-467A-B818-F9C7FFB44E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29021E5-C04E-467A-B818-F9C7FFB44E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29021E5-C04E-467A-B818-F9C7FFB44E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29021E5-C04E-467A-B818-F9C7FFB44E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9119FF-D3D0-4FEB-8E0C-31A3999AF0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9119FF-D3D0-4FEB-8E0C-31A3999AF0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9119FF-D3D0-4FEB-8E0C-31A3999AF0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9119FF-D3D0-4FEB-8E0C-31A3999AF0A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -839,6 +863,10 @@ Global
 		{525BDB12-0DB1-498E-AC67-FC2E90287534} = {74D97FAE-8594-48D8-9ACC-B780F8CABBEA}
 		{D68B992F-3819-424A-9E6C-8E68A5BBA2C0} = {74D97FAE-8594-48D8-9ACC-B780F8CABBEA}
 		{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D} = {14198B33-8A7F-435D-B9B7-DC4C543AD87F}
+		{7952DD10-11E1-4D38-B1B1-A1E019D5B666} = {8A655070-CADB-4D0C-91EF-4BFB68FE9DE2}
+		{9F8C13BF-D53F-42CD-A4EA-481F1138DA6E} = {8A655070-CADB-4D0C-91EF-4BFB68FE9DE2}
+		{A29021E5-C04E-467A-B818-F9C7FFB44E54} = {8A655070-CADB-4D0C-91EF-4BFB68FE9DE2}
+		{CE9119FF-D3D0-4FEB-8E0C-31A3999AF0A1} = {8A655070-CADB-4D0C-91EF-4BFB68FE9DE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}

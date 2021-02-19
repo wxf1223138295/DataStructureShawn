@@ -5,6 +5,23 @@ using System.Linq;
 
 namespace _718._最长重复子数组
 {
+    public abstract class Test
+    {
+        public virtual string func1()
+        {
+            return "";
+        }
+
+        public abstract string func2();
+    }
+
+    public class childclass : Test
+    {
+        public override string func2()
+        {
+            throw new NotImplementedException();
+        }
+    }
     class Program
     {
         static void Main(string[] args)
