@@ -32,7 +32,7 @@ namespace _106._从中序与后序遍历序列构造二叉树复习
 
         public TreeNode BuildTreeCore(int[] inorder,int instart,int inend, int[] postorder,int poststart,int postend)
         {
-            if (poststart > postend)
+            if (poststart > postend||instart>inend)
             {
                 return null;
             }
@@ -43,10 +43,8 @@ namespace _106._从中序与后序遍历序列构造二叉树复习
 
 
             var inrootindex=inorder.ToList().IndexOf(rootvalue);
-
-
-            int rightlen = inorder.Length - inrootindex - 1;
-            int leftlen = inrootindex;
+            
+            int leftlen = inrootindex-instart;
 
 
             root.left = BuildTreeCore(inorder, instart, inrootindex-1,postorder, poststart, poststart + leftlen-1);
