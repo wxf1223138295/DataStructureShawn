@@ -309,6 +309,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "449. 序列化和反序列�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "297. 二叉树的序列化与反序列化", "297. 二叉树的序列化与反序列化\297. 二叉树的序列化与反序列化.csproj", "{ED5CCC52-3693-4711-97C9-CF32B74427FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "169. 多数元素", "169. 多数元素\169. 多数元素.csproj", "{F435665E-E32F-4FC7-AFFC-A64E4CF4974D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. 合并K个升序链表", "23. 合并K个升序链表\23. 合并K个升序链表.csproj", "{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "204. 计数质数", "204. 计数质数\204. 计数质数.csproj", "{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "147. 对链表进行插入排序", "147. 对链表进行插入排序\147. 对链表进行插入排序.csproj", "{068F88D9-18D7-4B3D-ABD9-3801B70B4939}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -879,6 +887,22 @@ Global
 		{ED5CCC52-3693-4711-97C9-CF32B74427FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5CCC52-3693-4711-97C9-CF32B74427FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED5CCC52-3693-4711-97C9-CF32B74427FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F435665E-E32F-4FC7-AFFC-A64E4CF4974D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F435665E-E32F-4FC7-AFFC-A64E4CF4974D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F435665E-E32F-4FC7-AFFC-A64E4CF4974D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F435665E-E32F-4FC7-AFFC-A64E4CF4974D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068F88D9-18D7-4B3D-ABD9-3801B70B4939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068F88D9-18D7-4B3D-ABD9-3801B70B4939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068F88D9-18D7-4B3D-ABD9-3801B70B4939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068F88D9-18D7-4B3D-ABD9-3801B70B4939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1016,6 +1040,10 @@ Global
 		{3BB38FDB-D123-47F4-A463-D43B5840B44D} = {8233E011-14FB-44E0-9E7E-AABC001B16D4}
 		{49FEF881-567A-4E5C-BB96-720BA9E79397} = {5D40870E-DA7F-466B-8F04-4FCCF2406662}
 		{ED5CCC52-3693-4711-97C9-CF32B74427FF} = {5D40870E-DA7F-466B-8F04-4FCCF2406662}
+		{F435665E-E32F-4FC7-AFFC-A64E4CF4974D} = {2B17D743-F59C-45C9-A56C-D2277371AC92}
+		{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8} = {A0B1589B-22FB-4E87-80C2-6B24DD3293FB}
+		{068F88D9-18D7-4B3D-ABD9-3801B70B4939} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}

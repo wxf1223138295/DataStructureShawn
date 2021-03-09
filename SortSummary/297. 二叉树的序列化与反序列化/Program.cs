@@ -58,9 +58,10 @@ namespace _297._二叉树的序列化与反序列化
             }
             else
             {
+                builder.Append(root.val + " ");
                 serializecode(root.left, builder);
                 serializecode(root.right, builder);
-                builder.Append(root.val + " ");
+              
             }
            
         }
@@ -82,16 +83,16 @@ namespace _297._二叉树的序列化与反序列化
 
         private TreeNode deserializecore(List<string> list)
         {
-            if (list.Last() == "NULL")
+            if (list.First() == "NULL")
             {
-                list.RemoveAt(list.Count-1);
+                list.RemoveAt(0);
                 return null;
             }
 
-            var value = list.Last();
+            var value = list.First();
 
             TreeNode node=new TreeNode(Convert.ToInt32(value));
-            list.RemoveAt(list.Count - 1);
+            list.RemoveAt(0);
             node.left = deserializecore(list);
             node.right = deserializecore(list);
 

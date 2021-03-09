@@ -1,22 +1,67 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Threading;
 
 namespace 原型模型
 {
+    public class tst2 : IEnumerable<int>
+    {
+        public IEnumerator<int> GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+    }
+    public class test : IEnumerator<int>
+    {
+        public bool MoveNext()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Reset()
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Current { get; }
+
+        object? IEnumerator.Current => Current;
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            //TestEntity te=new TestEntity();
-            //te.Arg1 = "11111";
-            //te.entity=new TestEntity2{Arg3 ="444444444"};
-            //var tt=(TestEntity)te.();
+         
 
-            //tt.Arg1 = "22222";
-            //tt.entity.Arg3 = "3333333";
-            SunWuKong sunWuKong = new ConcretePrototype("孙悟空");
+            ConcurrentBag<int> list=new ConcurrentBag<int>();
+  
+            tst2 s=new tst2();
+
+            test t=new test();
+            
+           //TestEntity te=new TestEntity();
+           //te.Arg1 = "11111";
+           //te.entity=new TestEntity2{Arg3 ="444444444"};
+           //var tt=(TestEntity)te.();
+
+           //tt.Arg1 = "22222";
+           //tt.entity.Arg3 = "3333333";
+           SunWuKong sunWuKong = new ConcretePrototype("孙悟空");
 
             var s1 = sunWuKong.Clone() as ConcretePrototype;
             Console.WriteLine("Cloned1:\t" + s1.Id);
