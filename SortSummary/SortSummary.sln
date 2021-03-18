@@ -257,65 +257,73 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "82. 删除排序链表中�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "210. 课程表 II", "210. 课程表 II\210. 课程表 II.csproj", "{4B45966C-2DAE-4C3C-AEF1-1DE7A75C976D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "114. 二叉树展开为链表", "114. 二叉树展开为链表\114. 二叉树展开为链表.csproj", "{7952DD10-11E1-4D38-B1B1-A1E019D5B666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "114. 二叉树展开为链表", "114. 二叉树展开为链表\114. 二叉树展开为链表.csproj", "{7952DD10-11E1-4D38-B1B1-A1E019D5B666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "116. 填充每个节点的下一个右侧节点指针复习", "116. 填充每个节点的下一个右侧节点指针复习\116. 填充每个节点的下一个右侧节点指针复习.csproj", "{9F8C13BF-D53F-42CD-A4EA-481F1138DA6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "116. 填充每个节点的下一个右侧节点指针复习", "116. 填充每个节点的下一个右侧节点指针复习\116. 填充每个节点的下一个右侧节点指针复习.csproj", "{9F8C13BF-D53F-42CD-A4EA-481F1138DA6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "105. 从前序与中序遍历序列构造二叉树复习", "105. 从前序与中序遍历序列构造二叉树复习\105. 从前序与中序遍历序列构造二叉树复习.csproj", "{A29021E5-C04E-467A-B818-F9C7FFB44E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "105. 从前序与中序遍历序列构造二叉树复习", "105. 从前序与中序遍历序列构造二叉树复习\105. 从前序与中序遍历序列构造二叉树复习.csproj", "{A29021E5-C04E-467A-B818-F9C7FFB44E54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "106. 从中序与后序遍历序列构造二叉树复习", "106. 从中序与后序遍历序列构造二叉树复习\106. 从中序与后序遍历序列构造二叉树复习.csproj", "{CE9119FF-D3D0-4FEB-8E0C-31A3999AF0A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "106. 从中序与后序遍历序列构造二叉树复习", "106. 从中序与后序遍历序列构造二叉树复习\106. 从中序与后序遍历序列构造二叉树复习.csproj", "{CE9119FF-D3D0-4FEB-8E0C-31A3999AF0A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "897. 递增顺序查找树", "897. 递增顺序查找树\897. 递增顺序查找树.csproj", "{5DA7152B-31B4-4D93-B01F-BB6E599FAF18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "897. 递增顺序查找树", "897. 递增顺序查找树\897. 递增顺序查找树.csproj", "{5DA7152B-31B4-4D93-B01F-BB6E599FAF18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hash一致算法", "hash一致算法\hash一致算法.csproj", "{F1BB6412-AAEE-4839-9C5B-C47605331E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hash一致算法", "hash一致算法\hash一致算法.csproj", "{F1BB6412-AAEE-4839-9C5B-C47605331E88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "设计模式", "设计模式", "{D757CF7E-F1F6-4D48-A433-E269D17073D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{C93809C7-692B-46A6-964E-AF95BBD0C230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{C93809C7-692B-46A6-964E-AF95BBD0C230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模式\单例模式.csproj", "{BA386E8E-8B19-44A7-B051-6EC4E87FD6B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "单例模式", "单例模式\单例模式.csproj", "{BA386E8E-8B19-44A7-B051-6EC4E87FD6B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "普通工厂模式", "普通工厂模式\普通工厂模式.csproj", "{1B6D51E3-5B15-4E6A-BB71-68C980B20F84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "普通工厂模式", "普通工厂模式\普通工厂模式.csproj", "{1B6D51E3-5B15-4E6A-BB71-68C980B20F84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象工厂模式", "抽象工厂模式\抽象工厂模式.csproj", "{FC28AB1C-FA7D-484A-BA71-168162766DDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "抽象工厂模式", "抽象工厂模式\抽象工厂模式.csproj", "{FC28AB1C-FA7D-484A-BA71-168162766DDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "生成器模式", "生成器模式\生成器模式.csproj", "{FA8079A2-B0DB-4851-AF89-2D77729B595C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "生成器模式", "生成器模式\生成器模式.csproj", "{FA8079A2-B0DB-4851-AF89-2D77729B595C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "原型模型", "原型模型\原型模型.csproj", "{7F90773A-7280-4632-A219-63EDDDEEDF27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "原型模型", "原型模型\原型模型.csproj", "{7F90773A-7280-4632-A219-63EDDDEEDF27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "适配器模式", "适配器模式\适配器模式.csproj", "{FE1D8B6F-11C3-43D3-AE4B-50C1F00E5EF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "适配器模式", "适配器模式\适配器模式.csproj", "{FE1D8B6F-11C3-43D3-AE4B-50C1F00E5EF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 两数相加", "2. 两数相加\2. 两数相加.csproj", "{3A158314-E127-4ECA-8E17-A174EBA32A26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. 两数相加", "2. 两数相加\2. 两数相加.csproj", "{3A158314-E127-4ECA-8E17-A174EBA32A26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. 最长回文子串", "5. 最长回文子串\5. 最长回文子串.csproj", "{477F5880-BDA4-4223-BA25-F29975798936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. 最长回文子串", "5. 最长回文子串\5. 最长回文子串.csproj", "{477F5880-BDA4-4223-BA25-F29975798936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{0825A41E-4A03-41C0-833F-22A18B536F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "桥接模式", "桥接模式\桥接模式.csproj", "{0825A41E-4A03-41C0-833F-22A18B536F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰模式", "装饰模式\装饰模式.csproj", "{F4034DA2-159E-482A-B57F-02F70DA0F7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "装饰模式", "装饰模式\装饰模式.csproj", "{F4034DA2-159E-482A-B57F-02F70DA0F7E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "组合模式", "组合模式\组合模式.csproj", "{622952B5-07AE-4685-8FAF-220B9ADFC54E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "组合模式", "组合模式\组合模式.csproj", "{622952B5-07AE-4685-8FAF-220B9ADFC54E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "外观模式", "外观模式\外观模式.csproj", "{29E7041C-D8CD-4417-99B4-B227134C1D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "外观模式", "外观模式\外观模式.csproj", "{29E7041C-D8CD-4417-99B4-B227134C1D8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "96. 不同的二叉搜索树", "96. 不同的二叉搜索树\96. 不同的二叉搜索树.csproj", "{BB412CF9-4057-4707-9BD9-8E36D22F3DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "96. 不同的二叉搜索树", "96. 不同的二叉搜索树\96. 不同的二叉搜索树.csproj", "{BB412CF9-4057-4707-9BD9-8E36D22F3DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "103. 二叉树的锯齿形层序遍历", "103. 二叉树的锯齿形层序遍历\103. 二叉树的锯齿形层序遍历.csproj", "{5CC6CC06-8DB5-4D7D-A3B7-BCD1DD5B5050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "103. 二叉树的锯齿形层序遍历", "103. 二叉树的锯齿形层序遍历\103. 二叉树的锯齿形层序遍历.csproj", "{5CC6CC06-8DB5-4D7D-A3B7-BCD1DD5B5050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230. 二叉搜索树中第K小的元素", "230. 二叉搜索树中第K小的元素\230. 二叉搜索树中第K小的元素.csproj", "{99332C11-E860-4A50-AAC0-3BECF1370BDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230. 二叉搜索树中第K小的元素", "230. 二叉搜索树中第K小的元素\230. 二叉搜索树中第K小的元素.csproj", "{99332C11-E860-4A50-AAC0-3BECF1370BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "437. 路径总和 III", "437. 路径总和 III\437. 路径总和 III.csproj", "{3BB38FDB-D123-47F4-A463-D43B5840B44D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "437. 路径总和 III", "437. 路径总和 III\437. 路径总和 III.csproj", "{3BB38FDB-D123-47F4-A463-D43B5840B44D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "449. 序列化和反序列化二叉搜索树", "449. 序列化和反序列化二叉搜索树\449. 序列化和反序列化二叉搜索树.csproj", "{49FEF881-567A-4E5C-BB96-720BA9E79397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "449. 序列化和反序列化二叉搜索树", "449. 序列化和反序列化二叉搜索树\449. 序列化和反序列化二叉搜索树.csproj", "{49FEF881-567A-4E5C-BB96-720BA9E79397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "297. 二叉树的序列化与反序列化", "297. 二叉树的序列化与反序列化\297. 二叉树的序列化与反序列化.csproj", "{ED5CCC52-3693-4711-97C9-CF32B74427FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "297. 二叉树的序列化与反序列化", "297. 二叉树的序列化与反序列化\297. 二叉树的序列化与反序列化.csproj", "{ED5CCC52-3693-4711-97C9-CF32B74427FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "169. 多数元素", "169. 多数元素\169. 多数元素.csproj", "{F435665E-E32F-4FC7-AFFC-A64E4CF4974D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "169. 多数元素", "169. 多数元素\169. 多数元素.csproj", "{F435665E-E32F-4FC7-AFFC-A64E4CF4974D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. 合并K个升序链表", "23. 合并K个升序链表\23. 合并K个升序链表.csproj", "{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23. 合并K个升序链表", "23. 合并K个升序链表\23. 合并K个升序链表.csproj", "{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "204. 计数质数", "204. 计数质数\204. 计数质数.csproj", "{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "204. 计数质数", "204. 计数质数\204. 计数质数.csproj", "{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "147. 对链表进行插入排序", "147. 对链表进行插入排序\147. 对链表进行插入排序.csproj", "{068F88D9-18D7-4B3D-ABD9-3801B70B4939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "147. 对链表进行插入排序", "147. 对链表进行插入排序\147. 对链表进行插入排序.csproj", "{068F88D9-18D7-4B3D-ABD9-3801B70B4939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "动态规划", "动态规划", "{FE949D26-CE7C-4C6D-98CF-DAE3CBF456E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "322. 零钱兑换", "322. 零钱兑换\322. 零钱兑换.csproj", "{59A5D0A3-42D6-4ED7-9E12-8E52E056DC6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. 数组中重复的数字", "03. 数组中重复的数字\03. 数组中重复的数字.csproj", "{5DF840A9-8E73-484B-A82E-D4991ACECDDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53. 最大子序和", "53. 最大子序和\53. 最大子序和.csproj", "{51954B7A-BAC8-4068-B139-18F70590504D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -903,6 +911,18 @@ Global
 		{068F88D9-18D7-4B3D-ABD9-3801B70B4939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{068F88D9-18D7-4B3D-ABD9-3801B70B4939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{068F88D9-18D7-4B3D-ABD9-3801B70B4939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A5D0A3-42D6-4ED7-9E12-8E52E056DC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A5D0A3-42D6-4ED7-9E12-8E52E056DC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A5D0A3-42D6-4ED7-9E12-8E52E056DC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A5D0A3-42D6-4ED7-9E12-8E52E056DC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF840A9-8E73-484B-A82E-D4991ACECDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF840A9-8E73-484B-A82E-D4991ACECDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF840A9-8E73-484B-A82E-D4991ACECDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF840A9-8E73-484B-A82E-D4991ACECDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51954B7A-BAC8-4068-B139-18F70590504D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51954B7A-BAC8-4068-B139-18F70590504D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51954B7A-BAC8-4068-B139-18F70590504D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51954B7A-BAC8-4068-B139-18F70590504D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1044,6 +1064,9 @@ Global
 		{50A2DEDD-6CAD-4CF6-93BC-E1E93F99F181} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
 		{1E858FE0-D3BB-47FE-9377-3F3BE92BFCC8} = {A0B1589B-22FB-4E87-80C2-6B24DD3293FB}
 		{068F88D9-18D7-4B3D-ABD9-3801B70B4939} = {308D3447-8C3C-45F0-8AB9-427BA81AA946}
+		{59A5D0A3-42D6-4ED7-9E12-8E52E056DC6B} = {FE949D26-CE7C-4C6D-98CF-DAE3CBF456E4}
+		{5DF840A9-8E73-484B-A82E-D4991ACECDDD} = {26585BBE-1B99-4BE1-A6FE-B40BCD2F4327}
+		{51954B7A-BAC8-4068-B139-18F70590504D} = {26585BBE-1B99-4BE1-A6FE-B40BCD2F4327}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}

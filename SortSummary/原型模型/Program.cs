@@ -51,9 +51,9 @@ namespace 原型模型
             ConcurrentBag<int> list=new ConcurrentBag<int>();
   
             tst2 s=new tst2();
-
-            test t=new test();
             
+            test t=new test();
+      
            //TestEntity te=new TestEntity();
            //te.Arg1 = "11111";
            //te.entity=new TestEntity2{Arg3 ="444444444"};

@@ -21,32 +21,33 @@ namespace 单例模式
 
         public override bool IsInvalid { get; }
     }
+
     class Program
     {
+        private static int Fibonacci(int i)
+        {
+            if (i == 1)
+            {
+
+                return 0;
+            }
+            if (i == 2)
+            {
+
+                return 1;
+            }
+
+            var result = Fibonacci(i - 1) + Fibonacci(i-2);
+
+            return result;
+        }
         static void Main(string[] args)
         {
-            
 
+            var tt=Fibonacci(8);
 
-          ConcurrentQueue<int> queue=new ConcurrentQueue<int>();
-          queue.Enqueue(1);
+            Console.WriteLine(tt);
 
-          SpinWait spin = new SpinWait();
-
-      
-
-          spin.SpinOnce();
-
-
-          AutoResetEvent e=new AutoResetEvent(true);
-          e.WaitOne();
-          e.Set();
-
-            int[] ss = new int[] { 2, 3, 3, 5, 5 };
-            Solution s = new Solution();
-            s.solution(ss, 3);
-
-            Console.WriteLine("Hello World!");
         }
     }
     class Solution
