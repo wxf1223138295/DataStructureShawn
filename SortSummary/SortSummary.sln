@@ -325,6 +325,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. 数组中重复的数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53. 最大子序和", "53. 最大子序和\53. 最大子序和.csproj", "{51954B7A-BAC8-4068-B139-18F70590504D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11.盛最多水的容器", "_11.盛最多水的容器\_11.盛最多水的容器.csproj", "{503C6FC3-177E-44D9-8A4B-E3A7CC585D61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -923,6 +925,10 @@ Global
 		{51954B7A-BAC8-4068-B139-18F70590504D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51954B7A-BAC8-4068-B139-18F70590504D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51954B7A-BAC8-4068-B139-18F70590504D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503C6FC3-177E-44D9-8A4B-E3A7CC585D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503C6FC3-177E-44D9-8A4B-E3A7CC585D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503C6FC3-177E-44D9-8A4B-E3A7CC585D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503C6FC3-177E-44D9-8A4B-E3A7CC585D61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1067,6 +1073,7 @@ Global
 		{59A5D0A3-42D6-4ED7-9E12-8E52E056DC6B} = {FE949D26-CE7C-4C6D-98CF-DAE3CBF456E4}
 		{5DF840A9-8E73-484B-A82E-D4991ACECDDD} = {26585BBE-1B99-4BE1-A6FE-B40BCD2F4327}
 		{51954B7A-BAC8-4068-B139-18F70590504D} = {26585BBE-1B99-4BE1-A6FE-B40BCD2F4327}
+		{503C6FC3-177E-44D9-8A4B-E3A7CC585D61} = {26585BBE-1B99-4BE1-A6FE-B40BCD2F4327}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F330A40E-4391-4ECC-A49D-AF9B9CC4EC26}
